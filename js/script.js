@@ -57,7 +57,7 @@ function descobrirCDZ(){
         imagem.setAttribute("src","img/aquario.webp");
         imagem.setAttribute("width","300px");
     }
-    else if (data >= "2023/07/23" && dia <= "2023/08/22" ) {
+    else if (data >= "2023/07/23" && data <= "2023/08/22" ) {
         texto.innerHTML = "Você é de Leão!";
         texto2.innerHTML ="Favorito de muitos dos fãs, o irmão de Aiolos travou um duelo inesquecível com Seiya, na casa de Leão, o que bastou para torná-lo um dos Cavaleiros de Ouro mais memoráveis da franquia. Será que você é igual?"
         imagem.setAttribute("src","img/leao.webp");
